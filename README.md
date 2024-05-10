@@ -1,9 +1,11 @@
+#miniRack
+##About  
 miniRack is a toy language! I'm writing a compiler and interpreter in Python 3, to x86 assembly. The functionality of this language is based mostly off Racket, with some variance thrown in for fun!  
 
 It is dynamically typed and functional.  
 
 
-How to use:  
+##How to use:  
 
   The tokenize function (located in tokenizeToMeta.py) takes a piece of miniRack code and tokenizes it into its components. This list of tokens is used as input for the parser.  
   
