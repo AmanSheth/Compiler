@@ -7,13 +7,13 @@ It is dynamically typed and functional.
 
 ##How to use:  
 
-  The tokenize function (located in tokenizeToMeta.py) takes a piece of miniRack code and tokenizes it into its components. This list of tokens is used as input for the parser.  
+    The tokenize function (located in tokenizeToMeta.py) takes a piece of miniRack code and tokenizes it into its components. This list of tokens is used as input for the parser.  
   
-  The parse function (located in parse.py) converts a list of tokens into an intermediary meta language, that can be pushed into either the interpreter or the compiler.  
+    The parse function (located in parse.py) converts a list of tokens into an intermediary meta language, that can be pushed into either the interpreter or the compiler.  
   
-  The interpret function (located in interpreter.py) leverages Python 3 to evaluate a miniRack expression.  
+    The interpret function (located in interpreter.py) leverages Python 3 to evaluate a miniRack expression.  
   
-  The compile function (located in compiler.py) converts the meta language representation of a miniRack expression to x86 Assembly (pushed to a file called "output.s").  
+    The compile function (located in compiler.py) converts the meta language representation of a miniRack expression to x86 Assembly (pushed to a file called "output.s").  
   
   
   
