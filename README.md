@@ -17,6 +17,6 @@ It is dynamically typed and functional.
   
   
   
-Expressions: 
-  Literals (Dynamically Typed):
+## Expressions: 
+  ### Literals (Dynamically Typed):
     Integers (Version 1.0): miniRack can now handle integers [-2^63: 2^63-1]. 
